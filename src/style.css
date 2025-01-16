@@ -1,0 +1,91 @@
+body {
+    color: #dee1ec;
+    background-color: #e7eaf6;
+    font-family: "Ubuntu", serif;
+}
+
+html {
+    padding: 70px;
+}
+
+h1,
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 28px 0;
+    font-size: 52px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #e7eaf65e;
+    width: 95%;
+    margin-left: 1px;
+    margin-top: 38px;
+}
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.city-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.time {
+    font-size: 38px;
+    padding-right: 38px;
+    margin-top: 6px;
+}
+
+.date {
+    margin-top: -20px;
+}
+
+
+.wrapper {
+    background: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    border-radius: 10px;
+    width: 750px;
+    height: 520px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 45px;
+}
+
+select {
+    width: 94%;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #5753C9;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 150ms ease-in-out;
+}
