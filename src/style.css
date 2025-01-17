@@ -50,7 +50,6 @@ h2 {
 
 .time {
     font-size: 56px;
-
     margin-top: 7px;
 }
 
@@ -62,7 +61,7 @@ small {
 
 .wrapper {
     background: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
-    box-shadow: 10px 10px 10px rgba(34, 34, 35, 0.1);
+    box-shadow: rgba(45, 45, 50, 0.2) 0px 10px 29px 0px;
     border-radius: 10px;
     width: 750px;
     height: 520px;
