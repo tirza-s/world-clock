@@ -12,7 +12,6 @@ function updateClocks() {
 
         brusselsTimeElement.innerHTML = brusselsTimeZone.format("h:mm:ss [<small>]A[</small>]");
     }
-
     //Jakarta Date & timezone
     let jakartaDateElement = document.querySelector("#jakarta-data .date");
     if (jakartaDateElement) {
@@ -59,6 +58,10 @@ function renderSelectedCity() {
                     <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small>
                     </div >
                 </div >
+                <a href="/index.html" class="home-page">
+                <i class="fa-solid fa-backward"></i> 
+                Return to all cities
+                </a>
         `;
 }
 

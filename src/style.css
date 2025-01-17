@@ -64,7 +64,7 @@ small {
     box-shadow: rgba(45, 45, 50, 0.2) 0px 10px 29px 0px;
     border-radius: 10px;
     width: 750px;
-    height: 520px;
+    height: 500px;
     display: block;
     margin: 0 auto;
     padding-left: 45px;
@@ -83,10 +83,21 @@ select {
     font-size: 18px;
     padding: 12px;
     width: 94%;
+}
 
+.home-page {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+    color: #dee1ec;
+    font-size: 16px;
 
 }
 
+.fa-solid {
+    color: #dee1ec;
+    margin-right: 8px;
+}
 
 .footer-info {
     text-align: center;
